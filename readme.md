@@ -138,7 +138,8 @@ So to create all those `MapReduce Jobs` we use `Java 8` and some `hadoop and Map
     </dependencies>
 ```
 we notice that `scope` set to `provided` because the `namenode` in `hadoop cluster`
-contains all necessary jars file, including `MapReduce` jars.
+contains all necessary jars file, including `MapReduce` jars, 
+so we don't need to package mapreduce and hadoop dependencies.
 
 ### Example 1: Total of sales by cities
 
